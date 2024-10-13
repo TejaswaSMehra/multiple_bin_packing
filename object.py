@@ -5,8 +5,11 @@ class Color(Enum):
     YELLOW = 2
     RED = 3
     GREEN = 4
-    
+
 
 class Object:
     def __init__(self, object_id, size, color):
-        pass
+        self.id = object_id
+        self.size = size
+        self.color = color
+
